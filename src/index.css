@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color:#E8E0D1 ;
+}
+
+
+.text-center{
+  text-align: center;
+}
+
+
+.container{
+  width: 80%;
+  margin: 8% auto;
+  background-color: #D4AFB9;
+}
+
+.ListItems{
+  color:black;
+    width: 89%;
+    margin-left: 0%;
+
+
+}
+
+.ListItems p{
+  margin:0;
+  text-align: center;
+  padding:10px 0px;
+}
+
+
+.ListItems span{
+  display: inline-block;
+  text-align: center;
+  padding:10px 0;
+  font-size: 20px;
+  border: 1px solid black;
+
+}
+
+.ListItems span.title{
+  background-color:#E8E0D1;
+  color:black;
+}
+
+
+.ListItems span.name,form input[type=text]{
+  width:40%;
+  border-radius: 17px ;
+
+}
+
+.ListItems span.age,form input[type=number]{
+  width:28%;
+  border-radius: 17px ;
+  
+}
+
+.ListItems span.action,form input[type=submit]{
+  width:22%;
+  border-radius: 17px ;
+  text-shadow: 2px 2px 2px 2px ;
+}
+
+.ListItems span.icon{
+  
+  cursor: pointer;
+}
+
+form input{
+  padding:10px;
+
+  border: transparent;
+  border: 0.3px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
